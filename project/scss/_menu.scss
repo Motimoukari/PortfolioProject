@@ -52,6 +52,7 @@
     width: 100%;
     opacity: 0.9;
     visibility: hidden;
+    z-index: 1;
 
     &.show {
         visibility: visible;
@@ -97,9 +98,9 @@
         }
 
         .portrait {
-            width: 250px;
-            height: 250px;
-            background: url("../img/poro.png");
+            width: 270px;
+            height: 270px;
+            background: url("../img/zfrl.jpg");
             border-radius: 50%;
             border: solid 3px $secondary-color;
         }
